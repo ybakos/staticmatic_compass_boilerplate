@@ -1,0 +1,9 @@
+Need to generate a static site but suddenly find your stomach turns without the help of your friends Haml and Sass?
+
+Want to use a proper grid layout but don't smoke enough cigarettes to call yourself a graphic designer?
+
+Use this handy boilerplate project. It relies on StaticMatic to generate the final static html from your haml views and sass styles. I've added a basic compass configuration that allows you to immediately start using blueprint.
+
+TODO:
+- add simple deployment script
+- tweak things (ongoing)
