@@ -1,6 +1,6 @@
 require 'compass'
 
-configuration.haml_options = { :format => :html4 }
+configuration.haml_options = { :format => :html4, :attr_wrapper => '"' }
 
 Compass.configuration do |config|
   config.project_path = File.dirname(__FILE__)
