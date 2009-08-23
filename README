@@ -23,11 +23,14 @@ Next, cd into your new project directory, and create your own git repo, eg:
 cd /projects/my_new_web_site
 git init
 
-And I think you can take it from there.
+Next, I recommend you update the Capistrano deployment declarations in config/deploy.rb, and then get your deployment script working with your staging/production host.
 
 
 ASSUMPTIONS
-This uses Capistrano to deploy the site, and your production server should treat yourwebdir/current as its public Web root.
+-----------
+This uses Capistrano to deploy the site, and your production server should treat yourwebdir/current/site as its public Web root.
 
-TODO:
+
+TODO
+----
 - tweak things (ongoing)
