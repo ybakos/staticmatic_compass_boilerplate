@@ -4,6 +4,28 @@ Want to use a proper grid layout but don't smoke enough cigarettes to call yours
 
 Use this handy boilerplate project. It relies on StaticMatic to generate the final static html from your haml views and sass styles. I've added a basic compass configuration that allows you to immediately start using blueprint.
 
+HOW TO USE THIS SHIT
+--------------------
+
+First, clone a temporary copy of this to your local machine and cd into the repo root. eg:
+
+git clone git://github.com/ybakos/staticmatic_compass_boilerplate.git my_temp_dir
+cd my_temp_dir
+
+Since this is a boilerplate, I recommend you export this into your real project directory, eg:
+
+git checkout-index -a -f --prefix=/projects/my_new_web_site/
+
+** don't forget that trailing slash, beatch! **
+
+Next, cd into your new project directory, and create your own git repo, eg:
+
+cd /projects/my_new_web_site
+git .
+
+And I think you can take it from there.
+
+
 ASSUMPTIONS
 This uses Capistrano to deploy the site, and your production server should treat yourwebdir/current as its public Web root.
 
