@@ -21,7 +21,7 @@ git checkout-index -a -f --prefix=/projects/my_new_web_site/
 Next, cd into your new project directory, and create your own git repo, eg:
 
 cd /projects/my_new_web_site
-git .
+git init
 
 And I think you can take it from there.
 
