@@ -6,6 +6,8 @@ set :deploy_via, :remote_cache
 set :copy_cache, '/home/USERNAME/tmp/'
 set :use_sudo, false
 
+set :user, 'YOUR_REMOTE_HOST_SSH_USERNAME'
+
 role :app, "YOUR_APP_NAME"
 role :web, "YOUR_WWW_NAME"
 
